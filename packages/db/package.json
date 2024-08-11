@@ -1,0 +1,19 @@
+{
+  "name": "@repo/db",
+  "version": "1.0.0",
+  "exports": {
+    "./client": "./index.ts"
+  },
+  "scripts": {
+    "test": "echo \"error:no test specified\" && exit1"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0"
+  },
+  "export":{
+    "./client" : "./src/index.js"
+  }
+}
